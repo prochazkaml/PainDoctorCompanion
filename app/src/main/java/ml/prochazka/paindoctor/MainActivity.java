@@ -94,10 +94,10 @@ public class MainActivity extends AppCompatActivity {
                     public void onResponse(String response) {
                         Snackbar snackbar = Snackbar.make(findViewById(R.id.ScreenLayout), "", Snackbar.LENGTH_LONG);
 
-                        if(response.equals("OK")) {
+                        if(response.equals("OK" + ((char) (65 + painControl.getProgress())) + ((char) (65 + timeControl.getProgress())))) {
                             snackbar.setText("You PainDoctor™ is ready, good luck! \uD83D\uDE01");
                         } else {
-                            snackbar.setText("You should never see this text. If you do, something is really fucked.");
+                            snackbar.setText("You should never see this text. If you do, something is really fucked. (" + response + ")");
                         }
 
                         snackbar.show();
