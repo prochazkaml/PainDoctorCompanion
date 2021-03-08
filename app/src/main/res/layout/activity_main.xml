@@ -130,7 +130,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
         android:gravity="right"
-        android:text="Version 1.0. Created by PainDoctor Laboratories. All rights reserved."
+        android:text="Version 1.0. Created by PainDoctor Laboratories."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
